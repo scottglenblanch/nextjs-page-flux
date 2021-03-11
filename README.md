@@ -1,3 +1,17 @@
+# Page Flux Explained. 
+
+## API
+  - `usePageSelector`
+  - `usePageDispatch`
+
+### usePageSelector Hook
+
+React hook that accepts a callback function. This function takes in the pageState and then returns whatever
+the function executes. 
+
+### useDispatch Hook
+React hook that returns the `pageDispatch`. This can then be used to fire off actions. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
